@@ -10,7 +10,7 @@
 	<div class="wrapper">
 		<div class="content">
 		  	<a href="<%=request.getContextPath() %>/main.do">            
-	        	Enter!!
+	        	Enter
 	    	</a><br />
     	</div>
 	</div>
