@@ -16,6 +16,7 @@ public class BoardController {
 	@Autowired
 	private BoardService service;
 	
+	@RequestMapping("/select.do")
 	public ModelAndView boardSelect() throws Exception {
 		ModelAndView mav = new ModelAndView("board/list");
 		List<BoardVO> list = service.boardSelect();
